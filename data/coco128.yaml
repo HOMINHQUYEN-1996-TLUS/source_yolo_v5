@@ -1,8 +1,9 @@
 
-train: /source_yolov5/data/data/images  # train images (relative to 'path') 128 images
-val: /source_yolov5/data/data/images  # val images (relative to 'path') 128 images
+train: /content/data/images  # train images (relative to 'path') 128 images
+val: /content/data/images  # val images (relative to 'path') 128 images
 test:  # test images (optional)
 
 # Classes
 nc: 3  # number of classes
 names: ['other', 'vietinbank', 'vietcombank']  # class names
+
